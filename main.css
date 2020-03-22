@@ -20,6 +20,10 @@ div {
     padding: 20px;
 }
 
+p {
+    text-align: center;
+}
+
 #data {
     display: flex;
     justify-content: center;

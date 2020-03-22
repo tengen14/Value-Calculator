@@ -1,8 +1,6 @@
 let result = document.querySelector("#result");
 let inputValues = document.getElementsByClassName("input-value");
 
-console.log(result);
-
 for (var i = 0; i < inputValues.length; i++) {
   inputValues[i].addEventListener("change", function() {
     let employees = parseInt(inputValues[0].value);
@@ -11,9 +9,7 @@ for (var i = 0; i < inputValues.length; i++) {
 
     let newResult = employees * (4 * costPerHour) * hoursSaved;
     newResult = newResult.toString();
-    console.log(newResult);
-
+    
     result.innerHTML=newResult;
-    console.log(result);
   });
 }
