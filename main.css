@@ -1,34 +1,45 @@
 body {
-    background-color: honeydew;
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-    text-align: center;
+  background-color: honeydew;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Signika", sans-serif;
 }
 
 h1 {
-    text-align: center;
-    padding: 40px 0px 40px 0px;
-    text-decoration: underline;
-    text-decoration-color: blue;
-    margin: 0;
+  text-align: center;
+  padding: 40px 0px 40px 0px;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  margin: 0;
+  font-size: 62px;
+  font-weight: 700;
 }
 
 div {
-    padding: 20px;
+  padding: 20px;
 }
 
 input {
-    background-color: honeydew;
-    width: 50%;
-    margin-top: 16px;
-    border: hidden;
+  background-color: honeydew;
+  width: 50%;
+  margin-top: 16px;
+  border: hidden;
 }
 
 #data {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.size-up {
+  font-size: 42px;
+}
+
+.result-and-dollar {
+    font-weight: 700;
 }

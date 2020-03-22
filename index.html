@@ -3,39 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <title>Value Calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Signika:400,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
+    <h1>Value</h1>
 
-      <h1>Value</h1>
-
-      <div id="data">
-        <div>
-          <input class="input-value" type="number" value="3" />
-          <p>employees</p>
-        </div>
-        <div>
-          <p>X</p>
-        </div>
-        <div>
-          <span>$<input class="input-value" type="number" value="15" /></span>
-          <p>cost per hour</p>
-        </div>
-        <div>
-          <p>X</p>
-        </div>
-        <div>
-          <input class="input-value" type="number" value="8" />
-          <p>hours saved per week</p>
-        </div>
-        <div>
-          <p>=</p>
-        </div>
-        <div>
-          <p>$<span id="result">1440</span></p>
-          <p>total saved per month</p>
-        </div>
+    <div id="data">
+      <div>
+        <input class="input-value size-up" type="number" value="3" />
+        <p>employees</p>
       </div>
+      <div>
+        <p>X</p>
+      </div>
+      <div>
+        <span class="size-up">$<input class="input-value size-up" type="number" value="15"/></span>
+        <p>cost per hour</p>
+      </div>
+      <div>
+        <p>X</p>
+      </div>
+      <div>
+        <input class="input-value size-up" type="number" value="8" />
+        <p>hours saved per week</p>
+      </div>
+      <div>
+        <p>=</p>
+      </div>
+      <div>
+        <p class="size-up result-and-dollar">$<span id="result">1440</span></p>
+        <p>total saved per month</p>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
