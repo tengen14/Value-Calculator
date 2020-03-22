@@ -26,7 +26,7 @@ div {
 
 input {
   background-color: honeydew;
-  width: 50%;
+  width: 76px;
   margin-top: 16px;
   border: hidden;
   text-align: center;
@@ -50,6 +50,6 @@ input:focus {
     font-weight: 700;
 }
 
-.symbol {
+.symbols {
     font-size: 24px;
 }
