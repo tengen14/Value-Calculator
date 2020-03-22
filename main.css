@@ -53,3 +53,7 @@ input:focus {
 .symbols {
     font-size: 24px;
 }
+
+#data > div:nth-child(odd) {
+    width: 120px;
+}
