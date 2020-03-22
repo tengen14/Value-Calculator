@@ -29,6 +29,7 @@ input {
   width: 50%;
   margin-top: 16px;
   border: hidden;
+  text-align: center;
 }
 
 #data {
