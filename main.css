@@ -49,3 +49,7 @@ input:focus {
 .result-and-dollar {
     font-weight: 700;
 }
+
+.symbol {
+    font-size: 24px;
+}
