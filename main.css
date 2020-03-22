@@ -48,6 +48,8 @@ input:focus {
 
 .result-and-dollar {
     font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 0px;
 }
 
 .symbols {
