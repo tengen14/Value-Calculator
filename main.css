@@ -22,8 +22,10 @@ div {
 }
 
 input {
+    background-color: honeydew;
     width: 50%;
     margin-top: 16px;
+    border: hidden;
 }
 
 #data {
